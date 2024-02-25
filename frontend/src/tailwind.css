@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  
+
+
+    :root[data-theme="dark"] {
+      --color-bkg: 50deg 100% 45%;
+      --color-filler: 130deg 0% 0%;
+      --color-content: 250deg 21% 100%;
+      
+      --color-accent1:  50deg 100% 30%;
+      --color-accent2:  10deg 100% 20%;
+      
+      --color-accent3:  200deg 70% 30%;
+        
+
+
+        /*
+
+        --color-bkg:  211deg 53% 10%;
+        --color-filler: 219deg 25%  20%;
+        --color-content: 156deg 90% 99%;
+      
+        --color-accent1: 166deg 36% 52%;
+        --color-accent2: 152deg 50% 85%;
+
+        --color-accent3:  347deg 83% 60%;     
+
+        --------------------------------------
+        --color-accent1:  166deg 36% 52%;
+        ...................
+        --color-bkg:  221deg 26% 21%;
+        
+        --color-filler: 219deg 37%  17%;
+       
+*/
+      }
+
+  }
